@@ -140,6 +140,21 @@ body {
   transform: translate3d(0px, -2px, 0px);
 }
 
+.contest .resetScore {
+  color: hsl(0, 0%, 0%);
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin-top: 10px;
+}
+
+.resetScore:hover {
+  background: #ff0050;
+  transform: translate3d(0px, -2px, 0px);
+}
+
 .contest .handImageContainer {
   display: flex;
   justify-content: center;

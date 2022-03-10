@@ -85,3 +85,8 @@ const setScore = (newScore) => {
   SCORE = newScore;
   document.querySelector(".score h1").innerText = newScore;
 };
+
+const resetScore = () => {
+  SCORE = 0;
+  document.querySelector(".score h1").innerText = SCORE;
+};
